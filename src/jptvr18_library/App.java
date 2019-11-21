@@ -45,6 +45,8 @@ private Book book;
                     break;
             //Новый читатель
                 case 3:
+                    ReaderProvider readerprovider = new ReaderProvider();
+                    
                     break;
             //Выдать книгу
                 case 4:
