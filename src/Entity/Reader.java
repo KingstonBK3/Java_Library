@@ -31,6 +31,10 @@ public class Reader {
         this.phone = phone;
     }
 
+    public Reader(String name, String surname, int day, int month, int year, int phone) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getName() {
         return name;
     }

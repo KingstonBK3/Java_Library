@@ -5,6 +5,7 @@
  */
 package Entity;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
 
@@ -98,6 +99,18 @@ public class History {
             return false;
         }
         return Objects.equals(this.reader, other.reader);
+    }
+
+    public void setBook(ArrayList<Book> books) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setReader(ArrayList<Reader> readers) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public int size() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

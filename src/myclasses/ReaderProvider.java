@@ -13,23 +13,23 @@ import java.util.Scanner;
  * @author pupil
  */
 public class ReaderProvider {
-    public Reader cteateReader(){
+    public Reader createReader(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Регистрация нового читателя  ===");
-        System.out.println("Имя читателя");
+        System.out.println("Имя читателя :");
         String name = scanner.nextLine();
-        System.out.println("Фамилия читателя");
+        System.out.println("Фамилия читателя :");
         String surname = scanner.nextLine();
-        System.out.println("День");
+        System.out.println("День рождения:");
         int day = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Месяц");
+        System.out.println("Месяц рождения:");
         int month = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Год");
+        System.out.println("Год рождения :");
         int year = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Телефон");
+        System.out.println("Номер телефона читателя :");
         int phone = scanner.nextInt();
         Reader reader = new Reader(name, surname, day, month, year, name);
         return reader;

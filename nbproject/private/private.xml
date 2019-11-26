@@ -5,7 +5,7 @@
             <url>src/jptvr18_library/App.java</url>
             <bookmark id="1">
                 <name/>
-                <line>61</line>
+                <line>97</line>
                 <key/>
             </bookmark>
         </file>
@@ -14,8 +14,8 @@
         <group>
             <file>file:/C:/Users/pupil/Documents/NetBeansProjects/JPTVR18_Library/src/jptvr18_library/App.java</file>
             <file>file:/C:/Users/pupil/Documents/NetBeansProjects/JPTVR18_Library/src/myclasses/BookProvider.java</file>
+            <file>file:/C:/Users/pupil/Documents/NetBeansProjects/JPTVR18_Library/src/myclasses/HistoryProvider.java</file>
             <file>file:/C:/Users/pupil/Documents/NetBeansProjects/JPTVR18_Library/src/myclasses/ReaderProvider.java</file>
-            <file>file:/C:/Users/pupil/Documents/NetBeansProjects/JPTVR18_Library/src/Entity/Reader.java</file>
         </group>
     </open-files>
 </project-private>
