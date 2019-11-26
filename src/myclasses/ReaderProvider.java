@@ -32,6 +32,6 @@ public class ReaderProvider {
         System.out.println("Телефон");
         int phone = scanner.nextInt();
         Reader reader = new Reader(name, surname, day, month, year, name);
-        return null;
+        return reader;
     }
 }

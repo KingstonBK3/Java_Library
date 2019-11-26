@@ -96,10 +96,7 @@ public class Book {
         if (!Objects.equals(this.author, other.author)) {
             return false;
         }
-        if (!Objects.equals(this.isbn, other.isbn)) {
-            return false;
-        }
-        return true;
+        return Objects.equals(this.isbn, other.isbn);
     }
     
 }

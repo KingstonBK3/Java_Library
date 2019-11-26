@@ -11,6 +11,7 @@ import Entity.Reader;
 import java.util.Date;
 import java.util.Scanner;
 import myclasses.BookProvider;
+import myclasses.ReaderProvider;
 
 /**
  *
@@ -45,8 +46,8 @@ private Book book;
                     break;
             //Новый читатель
                 case 3:
-                    ReaderProvider readerprovider = new ReaderProvider();
-                    
+                    ReaderProvider readerProvider = new ReaderProvider();
+                    Reader reader = readerProvider.cteateReader();
                     break;
             //Выдать книгу
                 case 4:
